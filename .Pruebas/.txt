@@ -1,0 +1,2 @@
+Necesito, primero que la imagen del logo no este en la parte superior, esa de color #333.
+Después, necesito que a partir de que empiece esa parte de color este el resto de texto 

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10px;
+    background: #000;
+}
+
+nav {
+    position: relative;
+    width: 1048px;
+    /* Cambia el valor de width según tus necesidades */
+    width: 100%;
+    height: 50px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    /* Agrega esta propiedad para centrar las secciones */
+    align-items: center;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+    display: flex;
+    /* Agrega esta propiedad para centrar las secciones */
+    justify-content: center;
+    /* Agrega esta propiedad para centrar las secciones */
+}
+
+
+
+
+nav span {
+    position: absolute;
+    top: 0;
+    left: 709px;
+    width: 75px;
+    height: 100%;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+    border-radius: 8px;
+    transition: .5s ease;
+}
+
+nav a:nth-child(1):hover~span,
+nav a:nth-child(1).active~span {
+    left: 690px;
+    width: 110px;
+}
+
+nav a:nth-child(2):hover~span,
+nav a:nth-child(2).active~span {
+    left: 785px;
+    width: 110px;
+}
+
+nav a:nth-child(3):hover~span,
+nav a:nth-child(3).active~span {
+    left: 885px;
+    width: 110px;
+}
+
+nav a:nth-child(4):hover~span,
+nav a:nth-child(4).active~span {
+    left: 994px;
+    width: 115px;
+}
+
+nav a:nth-child(5):hover~span,
+nav a:nth-child(5).active~span {
+    left: 1111px;
+    width: 110px;
+}
